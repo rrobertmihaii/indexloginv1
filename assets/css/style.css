@@ -1,0 +1,80 @@
+:root{
+    --text: white;
+    --primar: green;
+    --secundar: #caff00;
+    --objback: #1b1b1b;
+    --background: linear-gradient(90deg, rgba(0,255,115,1) 0%, rgba(0,14,255,1) 100%);
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background: rgba(255 255 255 / 0.5);
+    height: 60vh;
+    width: 50vh;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    border: none;
+    padding: 10px;
+}
+.input{
+    
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+}
+.input-pass{
+    transition: all .5s;
+    padding: 5px;
+}
+.input-email{
+    transition: all .5s;
+    padding: 5px;
+}
+.input-email:hover{
+    transition: all .5s;
+padding: 15px;
+}
+.input-pass:hover{
+    transition: all .5s;
+padding: 15px;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.button-login button{
+    transition: all .5s;
+    background: var(--objback);
+    color: var(--text);
+    padding:10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+.button-login button:hover{
+    background: rgba(0, 55, 94, 0.453);
+    color: var(--text);
+    cursor: pointer; 
+    transition: all .5s;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all .5s ease-in-out;
+}
+.link a:hover{
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease-out;
+}
+
